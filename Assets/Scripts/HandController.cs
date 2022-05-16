@@ -27,13 +27,11 @@ public class HandController : MonoBehaviour
     private void TriggerPressed(InputAction.CallbackContext obj)
     {
         handAnimator.SetFloat("Trigger", obj.ReadValue<float>());
-        print("Trigger:"+ obj.ReadValue<float>());
     }
 
     private void GripPressed(InputAction.CallbackContext obj)
     {
         handAnimator.SetFloat("Grip", obj.ReadValue<float>());
-        print("Grip:"+obj.ReadValue<float>());
     }
 
     //Stop listening to the actions
