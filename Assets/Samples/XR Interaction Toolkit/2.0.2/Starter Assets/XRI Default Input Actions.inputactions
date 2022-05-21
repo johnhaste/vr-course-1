@@ -1127,12 +1127,12 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Attack",
+                    "name": "TestButton",
                     "type": "Button",
-                    "id": "6a2f8acf-40e2-49ad-9e6e-c9a59196d3cf",
+                    "id": "65cd07bd-ce21-4cd0-b232-a88999501080",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press",
+                    "interactions": "",
                     "initialStateCheck": false
                 }
             ],
@@ -1172,6 +1172,17 @@
                 },
                 {
                     "name": "",
+                    "id": "1ff1d758-6993-427b-8034-2750bab52eb3",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Mode Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "81c212dd-f786-4387-b3fa-e4bb5638b40c",
                     "path": "<XRController>{RightHand}/primary2DAxis",
                     "interactions": "Sector(directions=-1,sweepBehavior=3)",
@@ -1183,12 +1194,23 @@
                 },
                 {
                     "name": "",
-                    "id": "4394ad8f-6c79-4383-b6c7-a2cae755c6ec",
-                    "path": "<Keyboard>/space",
+                    "id": "d3c0f8ef-91fa-4678-9873-f3115396adff",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Teleport Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "197a443c-4e3e-4e18-bed7-77821427872f",
+                    "path": "<XRController>{RightHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attack",
+                    "action": "TestButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
